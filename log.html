@@ -46,8 +46,127 @@
 
     <div id="header"></div>
 
+     <!-- ========================================================== this is log in  background image  =========================================================================-->
+
+     <div class="about h-80 mt-3 mb-3">
+        <img src="img/log/wallpaperflare.com_wallpaper (32).jpg" width="100%" alt="">
+    </div>
+
+     <!-- ========================================================== this is log in  section  =========================================================================-->
+ <div class="m-5">
+     <div class="container mx-auto my-auto">
+         <div class="row mt-5 ">
+             <div class="col">
+                <h2 class="border-bottom border-dark">SignIn</h2>
+                <h5 class="text-muted">Insert your account Information:</h5>
+             </div>
+         </div>
 
 
+        <div class="row mx-auto my-auto">
+            <div class="col">
+                <div class="input-group m-3 ">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <span class="fa fa-envelope"></span>
+                        </div>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Enter your Email">
+                </div>
+             </div>
+            
+        </div>
+
+        <div class="row mx-auto my-auto">
+            <div class="col">
+                <div class="input-group m-3 ">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            <span class="fa fa-lock"></span>
+                        </div>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Enter your Password">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fa fa-eye-slash"></span>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            
+        </div>
+
+        <div class="row mx-auto my-auto">
+            <div class="col">
+               
+               <h5 class="text-muted">If you don't have any account then 
+                   <a href="#my_division" 
+                        data-toggle = "modal"
+                        data-target="#my_division">Register Here</a>
+                </h5>
+            </div>
+        </div>
+
+        <div class="row  mb-5 mx-auto my-auto">
+            <div class="col">
+                <button class="btn btn-dark text-white">Log In</button>
+            </div>
+        </div>
+
+     </div>
+    </div>
+
+     <!-- ========================================================== this is sign in modal  section  =========================================================================-->
+
+    <div class="container mt-5">
+       
+
+        <div id="my_division"
+                class="modal fade"
+                data-keyword="false"
+                data-backdrop="static">
+
+                <div class="modal-dialog modal-md modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Sign In</h5>
+                            <button data-dismiss="modal"
+                                    class="close">&times;</button>
+                                
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label class="control-label">Name</label>
+                                    <input type="text"
+                                            class="form-control" placeholder="Enter Your Name">
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Email</label>
+                                    <input type="text"
+                                            class="form-control" placeholder="Enter your Email">
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Password</label>
+                                    <input type="number"
+                                            class="form-control" placeholder="Please Enter your Password">
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label">Confirm Password</label>
+                                    <input type="number"
+                                            class="form-control" placeholder="Please Enter your  Confirm Password">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-success">Save</button>
+                            <button class="btn btn-danger"
+                                    data-dismiss="modal">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
     <!-- ==========================================================this is a footer section  =========================================================================-->
 
     <div id="footer"></div>
