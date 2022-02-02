@@ -1,0 +1,86 @@
+/* ========================================================== this is background section  ========================================================================= */
+.background{
+    background-image: url(../img/carsousel/wallpaperflare.com_wallpaper\ \(19\).jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position:top 25% right 0 ;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.background h4{
+    padding-bottom: 15px;
+
+}
+.background h1{
+    color: #088178;
+}
+.background button{
+    background-image:url(../img/shirt/button.png) ;
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* ========================================================== this is feature section  ========================================================================= */
+#feature1{
+    shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+}
+/* ========================================================== this is product section  ========================================================================= */
+
+#product .card{
+    cursor: pointer;
+    transition: transform .2s;
+
+}
+#product .card img:hover{
+    transform: scale(1.5);
+}
+#product .card .card-footer .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border : 1px solid #cce7d0;
+    text-align: center;
+    float:right;
+    
+    
+
+}
+/* ========================================================== this is new arrival section  ========================================================================= */
+
+#new .card{
+    cursor: pointer;
+    transition: transform .2s;
+
+}
+#new .card img:hover{
+    transform: scale(1.5);
+}
+#new .card .card-footer .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border : 1px solid #cce7d0;
+    text-align: center;
+    float:right;
+    
+    
+
+}
