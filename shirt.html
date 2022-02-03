@@ -33,6 +33,7 @@
     <!-- ========================================================== this is script section =========================================================================-->
 
     <script src="js/header-footer.js"></script>
+    <script src="js/cart.js"></script>
      
     <!-- ========================================================== This is favicon section =========================================================================-->
     <link rel="shortcut icon" href="img/logo/arpit-logo.1b934d9b.png" type="image/x-icon">  
@@ -60,7 +61,7 @@
    
     <div class="card-deck m-3" id="feature">
         <div class="card shadow-lg p-3 mb-5 bg-white rounded" id="feature1">
-            <img src="img/features/f1.png" alt="" class="card-img-top">
+            <img src="img/features/f1.png" alt=""  class="card-img-top">
             <div class="card-body">
                 <div class="card-text text-center" style="background-color: lightpink;">Free Shipping</div>
             </div>
@@ -115,12 +116,12 @@
 
 <div class="card-deck" id="product">
 
-    <div class="card "  onclick="window.location.href='sproduct.html';">
+    <div class="card "  >
     
-        <img src="img/products/f1.jpg" alt="">
+        <img src="img/products/f1.jpg" class="shop-item-image" alt="" onclick="window.location.href='sproduct.html';" onclick="window.location.href='sproduct.html';">
     
         <div class="card-body">
-            <span class="text-muted">adidas</span>
+            <span class="text-muted shop-item-title">adidas</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
         </div>
         <div class="card-footer">
@@ -132,18 +133,45 @@
                 <i class="fa fa-star"></i>
 
             </div>
-            <h4 class="text-success">500 Rs.</h4>
+            <h4 class="text-success shop-item-price">500 Rs.</h4>
+
+            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+
+            
+            <!--<a href="cart.html"><i class="fa fa-shopping-cart cart "></i></a>-->
+        </div>
+    </div>
+
+
+    <div class="card">
+    
+        <img src="img/products/f2.jpg" alt="" onclick="window.location.href='sproduct.html';">
+    
+        <div class="card-body">
+            <span class="text-muted">Duke</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+        </div>
+        <div class="card-footer">
+            <div class="star" style="color: rgb(243, 181, 25);">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+
+            </div>
+            <h4 class="text-success">600 Rs.</h4>
             <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
         </div>
     </div>
 
 
-    <div class="card " onclick="window.location.href='sproduct.html';">
+    <div class="card">
     
-        <img src="img/products/f2.jpg" alt="">
+        <img src="img/products/f3.jpg" alt="" onclick="window.location.href='sproduct.html';">
     
         <div class="card-body">
-            <span class="text-muted">adidas</span>
+            <span class="text-muted">ck</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
         </div>
         <div class="card-footer">
@@ -155,18 +183,18 @@
                 <i class="fa fa-star"></i>
 
             </div>
-            <h4 class="text-success">500 Rs.</h4>
+            <h4 class="text-success">700 Rs.</h4>
             <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
         </div>
     </div>
 
 
-    <div class="card " onclick="window.location.href='sproduct.html';">
+    <div class="card">
     
-        <img src="img/products/f3.jpg" alt="">
+        <img src="img/products/f4.jpg" alt="" onclick="window.location.href='sproduct.html';">
     
         <div class="card-body">
-            <span class="text-muted">adidas</span>
+            <span class="text-muted">Dolor</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
         </div>
         <div class="card-footer">
@@ -178,30 +206,7 @@
                 <i class="fa fa-star"></i>
 
             </div>
-            <h4 class="text-success">500 Rs.</h4>
-            <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
-        </div>
-    </div>
-
-
-    <div class="card " onclick="window.location.href='sproduct.html';">
-    
-        <img src="img/products/f4.jpg" alt="">
-    
-        <div class="card-body">
-            <span class="text-muted">adidas</span>
-            <h5>Cartoon Astronaut T-Shirts</h5>
-        </div>
-        <div class="card-footer">
-            <div class="star" style="color: rgb(243, 181, 25);">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-
-            </div>
-            <h4 class="text-success">500 Rs.</h4>
+            <h4 class="text-success">800 Rs.</h4>
             <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
         </div>
     </div>
@@ -213,12 +218,12 @@
 <div class="container mt-3">
 <div class="card-deck" id="product">
 
-    <div class="card " onclick="window.location.href='sproduct.html';">
+    <div class="card">
     
-        <img src="img/products/f5.jpg" alt="">
+        <img src="img/products/f5.jpg" alt="" onclick="window.location.href='sproduct.html';">
     
         <div class="card-body">
-            <span class="text-muted">adidas</span>
+            <span class="text-muted">abc</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
         </div>
         <div class="card-footer">
@@ -230,18 +235,18 @@
                 <i class="fa fa-star"></i>
 
             </div>
-            <h4 class="text-success">500 Rs.</h4>
+            <h4 class="text-success">800 Rs.</h4>
             <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
         </div>
     </div>
 
 
-    <div class="card " onclick="window.location.href='sproduct.html';">
+    <div class="card">
     
-        <img src="img/products/f6.jpg" alt="">
+        <img src="img/products/f6.jpg" alt="" onclick="window.location.href='sproduct.html';">
     
         <div class="card-body">
-            <span class="text-muted">adidas</span>
+            <span class="text-muted">abcd</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
         </div>
         <div class="card-footer">
@@ -253,18 +258,18 @@
                 <i class="fa fa-star"></i>
 
             </div>
-            <h4 class="text-success">500 Rs.</h4>
+            <h4 class="text-success">900 Rs.</h4>
             <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
         </div>
     </div>
 
 
-    <div class="card " onclick="window.location.href='sproduct.html';">
+    <div class="card">
     
-        <img src="img/products/f7.jpg" alt="">
+        <img src="img/products/f7.jpg" alt="" onclick="window.location.href='sproduct.html';">
     
         <div class="card-body">
-            <span class="text-muted">adidas</span>
+            <span class="text-muted">xyz</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
         </div>
         <div class="card-footer">
@@ -276,18 +281,18 @@
                 <i class="fa fa-star"></i>
 
             </div>
-            <h4 class="text-success">500 Rs.</h4>
+            <h4 class="text-success">1000 Rs.</h4>
             <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
         </div>
     </div>
 
 
-    <div class="card " onclick="window.location.href='sproduct.html';">
+    <div class="card">
     
-        <img src="img/products/f8.jpg" alt="">
+        <img src="img/products/f8.jpg" alt="" onclick="window.location.href='sproduct.html';">
     
         <div class="card-body">
-            <span class="text-muted">adidas</span>
+            <span class="text-muted">uvw</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
         </div>
         <div class="card-footer">
@@ -299,7 +304,7 @@
                 <i class="fa fa-star"></i>
 
             </div>
-            <h4 class="text-success">500 Rs.</h4>
+            <h4 class="text-success">1100 Rs.</h4>
             <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
         </div>
     </div>
@@ -314,12 +319,12 @@
 
 <div class="card-deck" id="new">
 
-    <div class="card " onclick="window.location.href='sproduct.html';">
+    <div class="card">
     
-        <img src="img/products/n1.jpg" alt="">
+        <img src="img/products/n1.jpg" alt="" onclick="window.location.href='sproduct.html';">
     
         <div class="card-body">
-            <span class="text-muted">adidas</span>
+            <span class="text-muted">123</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
         </div>
         <div class="card-footer">
@@ -331,18 +336,18 @@
                 <i class="fa fa-star"></i>
 
             </div>
-            <h4 class="text-success">500 Rs.</h4>
+            <h4 class="text-success">1200 Rs.</h4>
             <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
         </div>
     </div>
 
 
-    <div class="card " onclick="window.location.href='sproduct.html';">
+    <div class="card">
     
-        <img src="img/products/n2.jpg" alt="">
+        <img src="img/products/n2.jpg" alt="" onclick="window.location.href='sproduct.html';">
     
         <div class="card-body">
-            <span class="text-muted">adidas</span>
+            <span class="text-muted">1234</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
         </div>
         <div class="card-footer">
@@ -354,18 +359,18 @@
                 <i class="fa fa-star"></i>
 
             </div>
-            <h4 class="text-success">500 Rs.</h4>
+            <h4 class="text-success">1300 Rs.</h4>
             <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
         </div>
     </div>
 
 
-    <div class="card " onclick="window.location.href='sproduct.html';">
+    <div class="card">
     
-        <img src="img/products/n3.jpg" alt="">
+        <img src="img/products/n3.jpg" alt="" onclick="window.location.href='sproduct.html';">
     
         <div class="card-body">
-            <span class="text-muted">adidas</span>
+            <span class="text-muted">456</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
         </div>
         <div class="card-footer">
@@ -377,18 +382,18 @@
                 <i class="fa fa-star"></i>
 
             </div>
-            <h4 class="text-success">500 Rs.</h4>
+            <h4 class="text-success">130 Rs.</h4>
             <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
         </div>
     </div>
 
 
-    <div class="card " onclick="window.location.href='sproduct.html';">
+    <div class="card">
     
-        <img src="img/products/n4.jpg" alt="">
+        <img src="img/products/n4.jpg" alt="" onclick="window.location.href='sproduct.html';">
     
         <div class="card-body">
-            <span class="text-muted">adidas</span>
+            <span class="text-muted">789</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
         </div>
         <div class="card-footer">
@@ -400,7 +405,7 @@
                 <i class="fa fa-star"></i>
 
             </div>
-            <h4 class="text-success">500 Rs.</h4>
+            <h4 class="text-success">160 Rs.</h4>
             <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
         </div>
     </div>
@@ -412,12 +417,12 @@
 <div class="container mt-3">
 <div class="card-deck" id="product">
 
-    <div class="card " onclick="window.location.href='sproduct.html';">
+    <div class="card">
     
-        <img src="img/products/n5.jpg" alt="">
+        <img src="img/products/n5.jpg" alt="" onclick="window.location.href='sproduct.html';">
     
         <div class="card-body">
-            <span class="text-muted">adidas</span>
+            <span class="text-muted">a12b</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
         </div>
         <div class="card-footer">
@@ -429,18 +434,18 @@
                 <i class="fa fa-star"></i>
 
             </div>
-            <h4 class="text-success">500 Rs.</h4>
+            <h4 class="text-success">170 Rs.</h4>
             <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
         </div>
     </div>
 
 
-    <div class="card " onclick="window.location.href='sproduct.html';">
+    <div class="card">
     
-        <img src="img/products/n6.jpg" alt="">
+        <img src="img/products/n6.jpg" alt="" onclick="window.location.href='sproduct.html';">
     
         <div class="card-body">
-            <span class="text-muted">adidas</span>
+            <span class="text-muted">a12b3c</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
         </div>
         <div class="card-footer">
@@ -452,18 +457,18 @@
                 <i class="fa fa-star"></i>
 
             </div>
-            <h4 class="text-success">500 Rs.</h4>
+            <h4 class="text-success">200 Rs.</h4>
             <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
         </div>
     </div>
 
 
-    <div class="card " onclick="window.location.href='sproduct.html';">
+    <div class="card">
     
-        <img src="img/products/n7.jpg" alt="">
+        <img src="img/products/n7.jpg" alt="" onclick="window.location.href='sproduct.html';">
     
         <div class="card-body">
-            <span class="text-muted">adidas</span>
+            <span class="text-muted">a12b3c4c</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
         </div>
         <div class="card-footer">
@@ -475,18 +480,18 @@
                 <i class="fa fa-star"></i>
 
             </div>
-            <h4 class="text-success">500 Rs.</h4>
+            <h4 class="text-success">2000 Rs.</h4>
             <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
         </div>
     </div>
 
 
-    <div class="card " onclick="window.location.href='sproduct.html';">
+    <div class="card">
     
-        <img src="img/products/n8.jpg" alt="">
+        <img src="img/products/n8.jpg" alt="" onclick="window.location.href='sproduct.html';">
     
         <div class="card-body">
-            <span class="text-muted">adidas</span>
+            <span class="text-muted">asd</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
         </div>
         <div class="card-footer">

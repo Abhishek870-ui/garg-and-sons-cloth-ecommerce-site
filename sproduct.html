@@ -33,6 +33,7 @@
     <!-- ========================================================== this is script section =========================================================================-->
 
     <script src="js/header-footer.js"></script>
+    <script src="js/cart.js"></script>
      
     <!-- ========================================================== This is favicon section =========================================================================-->
     <link rel="shortcut icon" href="img/logo/arpit-logo.1b934d9b.png" type="image/x-icon">  
@@ -52,7 +53,7 @@
     <div class="row">
         <div class="col">
             <div class="row">
-                <img src="img/products/f1.jpg" width="100%"  id = "MainImg" alt="">
+                <img src="img/products/f1.jpg" width="100%"  id = "MainImg" class="shop-item-image" alt="">
             </div>
             <div class="row mt-3 ">
                 <div class="col d-inline">
@@ -73,7 +74,8 @@
         <div class="col">
             <h6>Home / T-Shirt</h6>
             <h4>Men's Fashion T-Shirt</h4>
-            <h2>500 Rs.</h2>
+            <h2 class="shop-item-title">Adidas</h2>
+            <h2 class="shop-item-price">500 Rs.</h2>
             <select class="mt-3">
                 <option>Select Size</option>
                 <option>XL</option>
@@ -85,7 +87,7 @@
             <br>
             <input type="number" value="1" class="mt-3">
             <br>
-            <button class="btn btn-success mt-3">Add to Cart</button>
+            <button class="btn btn-success mt-3 shop-item-button">Add to Cart</button>
             <p class="mt-3 text-justify">Ipsum et voluptua amet ipsum no consetetur erat labore, sed rebum sea labore sit sadipscing takimata et duo. Lorem dolor aliquyam dolore diam diam. Duo diam dolor consetetur dolor stet et amet est lorem. Duo sed est et dolores. Justo voluptua eirmod dolores ea at eos. Diam sed dolor no sanctus sanctus tempor aliquyam. Duo tempor et accusam et ut,.</p>
         </div>
     </div>
@@ -99,15 +101,15 @@
     <p >New Morden Design</p>
 
 </div>
-<div class="container">
+    <div class="container">
 
     <div class="card-deck" id="product">
     
-        <div class="card ">
+        <div class="card "  >
         
-            <img src="img/products/f1.jpg" alt="">
+            <img src="img/products/f1.jpg"  alt="" onclick="window.location.href='sproduct.html';" onclick="window.location.href='sproduct.html';">
         
-            <div class="card-body" onclick="window.location.href='sproduct.html';">
+            <div class="card-body">
                 <span class="text-muted">adidas</span>
                 <h5>Cartoon Astronaut T-Shirts</h5>
             </div>
@@ -121,17 +123,41 @@
     
                 </div>
                 <h4 class="text-success">500 Rs.</h4>
+
+                <a href="cart.html"><i class="fa fa-shopping-cart cart "></i></a>
+            </div>
+        </div>
+    
+    
+        <div class="card">
+        
+            <img src="img/products/f2.jpg" alt="" onclick="window.location.href='sproduct.html';">
+        
+            <div class="card-body">
+                <span class="text-muted">Duke</span>
+                <h5>Cartoon Astronaut T-Shirts</h5>
+            </div>
+            <div class="card-footer">
+                <div class="star" style="color: rgb(243, 181, 25);">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+    
+                </div>
+                <h4 class="text-success">600 Rs.</h4>
                 <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
             </div>
         </div>
     
     
-        <div class="card ">
+        <div class="card">
         
-            <img src="img/products/f2.jpg" alt="">
+            <img src="img/products/f3.jpg" alt="" onclick="window.location.href='sproduct.html';">
         
-            <div class="card-body" onclick="window.location.href='sproduct.html';">
-                <span class="text-muted">adidas</span>
+            <div class="card-body">
+                <span class="text-muted">ck</span>
                 <h5>Cartoon Astronaut T-Shirts</h5>
             </div>
             <div class="card-footer">
@@ -143,18 +169,18 @@
                     <i class="fa fa-star"></i>
     
                 </div>
-                <h4 class="text-success">500 Rs.</h4>
+                <h4 class="text-success">700 Rs.</h4>
                 <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
             </div>
         </div>
     
     
-        <div class="card ">
+        <div class="card">
         
-            <img src="img/products/f3.jpg" alt="">
+            <img src="img/products/f4.jpg" alt="" onclick="window.location.href='sproduct.html';">
         
-            <div class="card-body" onclick="window.location.href='sproduct.html';">
-                <span class="text-muted">adidas</span>
+            <div class="card-body">
+                <span class="text-muted">Dolor</span>
                 <h5>Cartoon Astronaut T-Shirts</h5>
             </div>
             <div class="card-footer">
@@ -166,30 +192,7 @@
                     <i class="fa fa-star"></i>
     
                 </div>
-                <h4 class="text-success">500 Rs.</h4>
-                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
-            </div>
-        </div>
-    
-    
-        <div class="card ">
-        
-            <img src="img/products/f4.jpg" alt="">
-        
-            <div class="card-body" onclick="window.location.href='sproduct.html';">
-                <span class="text-muted">adidas</span>
-                <h5>Cartoon Astronaut T-Shirts</h5>
-            </div>
-            <div class="card-footer">
-                <div class="star" style="color: rgb(243, 181, 25);">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-    
-                </div>
-                <h4 class="text-success">500 Rs.</h4>
+                <h4 class="text-success">800 Rs.</h4>
                 <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
             </div>
         </div>
@@ -203,6 +206,7 @@
     <div id="footer"></div>
     <!-- ==========================================================this is a script section  =========================================================================-->
    <script>
+      
        var MainImg = document.getElementById("MainImg");
        var smallimg = document.getElementsByClassName("small-img");
 
@@ -223,6 +227,10 @@
        }
 
    </script>
+
+<script src="js/cart.js">
+
+</script>
      
 </body>
 </html>

@@ -33,9 +33,12 @@
     <!-- ========================================================== this is script section =========================================================================-->
 
     <script src="js/header-footer.js"></script>
+    <script src="js/cart.js"></script>
      
     <!-- ========================================================== This is favicon section =========================================================================-->
     <link rel="shortcut icon" href="img/logo/arpit-logo.1b934d9b.png" type="image/x-icon">  
+
+    <link rel="stylesheet" href="css/cart.css">
 
 </head>
 
@@ -45,6 +48,48 @@
     <!-- ==========================================================this is a header section  =========================================================================-->
 
     <div id="header"></div>
+
+    <!-- ==========================================================this is a background section  =========================================================================-->
+    <div class="background">
+        
+    </div>
+
+
+    <!-- ==========================================================this is a billing section section  =========================================================================-->
+    <div class="container mt-5">
+        <h1 class="text-center text-dark bg-primary p-4" style="text-decoration: underline;">PURCHAGING ITEMS</h1>
+    </div>
+
+
+
+    <div class="shop-items">
+        <div class="shop-item">
+            <span class="shop-item-title">Album 1</span>
+            <img class="shop-item-image" src="img/wallpaperflare.com_wallpaper (29).jpg">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$12.99</span>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+
+
+    <div class="container mt-5">
+        <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </div>
+
+
 
 
 
