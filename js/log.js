@@ -5,10 +5,12 @@ function validate()
     if(uname == "admin" && upwd == "admin")
     {
         alert("login succesfully");
-        
+        window.open('index.html')
     }
     else
     {
         alert("login failed")
+        
+
     }
 }
