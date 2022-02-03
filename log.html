@@ -33,6 +33,7 @@
     <!-- ========================================================== this is script section =========================================================================-->
 
     <script src="js/header-footer.js"></script>
+    <script src="js/log.js"></script>
      
     <!-- ========================================================== This is favicon section =========================================================================-->
     <link rel="shortcut icon" href="img/logo/arpit-logo.1b934d9b.png" type="image/x-icon">  
@@ -62,56 +63,62 @@
              </div>
          </div>
 
-
-        <div class="row mx-auto my-auto">
-            <div class="col">
-                <div class="input-group m-3 ">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            <span class="fa fa-envelope"></span>
+         <form action="index.html" method="POST" name="mylogin">
+            <div class="row mx-auto my-auto">
+                <div class="col">
+                    
+                    <div class="input-group m-3 ">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <span class="fa fa-envelope"></span>
+                            </div>
                         </div>
+                        <input type="text" class="form-control" placeholder="Enter your Email or username" id="uname">
                     </div>
-                    <input type="text" class="form-control" placeholder="Enter your Email">
-                </div>
-             </div>
-            
-        </div>
-
-        <div class="row mx-auto my-auto">
-            <div class="col">
-                <div class="input-group m-3 ">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text">
-                            <span class="fa fa-lock"></span>
-                        </div>
-                    </div>
-                    <input type="password" class="form-control" placeholder="Enter your Password">
-                    <div class="input-group-append">
-                        <div class="input-group-text">
-                            <span class="fa fa-eye-slash"></span>
-                        </div>
-                    </div>
-                </div>
-             </div>
-            
-        </div>
-
-        <div class="row mx-auto my-auto">
-            <div class="col">
-               
-               <h5 class="text-muted">If you don't have any account then 
-                   <a href="#my_division" 
-                        data-toggle = "modal"
-                        data-target="#my_division">Register Here</a>
-                </h5>
+                 </div>
+                
             </div>
-        </div>
-
-        <div class="row  mb-5 mx-auto my-auto">
-            <div class="col">
-                <button class="btn btn-dark text-white">Log In</button>
+    
+            <div class="row mx-auto my-auto">
+                <div class="col">
+                    <div class="input-group m-3 ">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <span class="fa fa-lock"></span>
+                            </div>
+                        </div>
+                        <input type="password" class="form-control" placeholder="Enter your Password" id="upwd">
+                        <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fa fa-eye-slash"></span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                
             </div>
-        </div>
+    
+            <div class="row mx-auto my-auto">
+                <div class="col">
+                   
+                   <h5 class="text-muted">If you don't have any account then 
+                       <a href="#my_division" 
+                            data-toggle = "modal"
+                            data-target="#my_division">Register Here</a>
+                    </h5>
+                </div>
+            </div>
+    
+            <div class="row  mb-5 mx-auto my-auto">
+                <div class="col">
+                    <input type="submit" value="Login" class="btn btn-dark text-white" onclick="validate()">
+                </div>
+            </div>
+
+         </form>
+
+
+        
 
      </div>
     </div>
